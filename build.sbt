@@ -1,12 +1,10 @@
 name := "magura_example_plugin"
 
-version := "0.1"
+version := "0.0.1"
 
-scalaVersion := "2.13.7"
+scalaVersion := "2.12.2"
 
-libraryDependencies += "io.github.burbokop" % "magura_api_2.13" % "0.1.3"
-
-
+libraryDependencies += "io.github.burbokop" % "magura_api_2.12" % "0.1.3"
 
 scalacOptions ++= Seq("-unchecked", "-deprecation", "-Xcheckinit", "-encoding", "utf8", "-feature")
 

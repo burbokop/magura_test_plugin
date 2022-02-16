@@ -7,5 +7,5 @@ import java.lang.module._
 
 class TestPlugin extends Plugin {
   override def init(): Int = 0
-  override def name(): String = "magura TestPlugin"
+  override def name(): String = (new SomeClass).someFunc()
 }
